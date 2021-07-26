@@ -1,0 +1,7 @@
+milestone 2:
+-fix GET /api/trails/ to query trails based on json data
+-prepopulate pictures
+-function for updating ratings
+-function for sorting trails by rating
+-add ability upload pictures
+-datascrape the trails information (maybe)

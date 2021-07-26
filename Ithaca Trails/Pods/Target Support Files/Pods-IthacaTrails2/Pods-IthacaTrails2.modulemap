@@ -1,0 +1,6 @@
+framework module Pods_IthacaTrails2 {
+  umbrella header "Pods-IthacaTrails2-umbrella.h"
+
+  export *
+  module * { export * }
+}

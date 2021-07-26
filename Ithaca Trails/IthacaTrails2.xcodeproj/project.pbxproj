@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D7BD93D2587B4380033943F /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7BD93C2587B4380033943F /* PopupViewController.swift */; };
+		EF3B07BAD9FA35D689CB32EC /* Pods_IthacaTrails2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2842FE8D265DE1DE1A7C3146 /* Pods_IthacaTrails2.framework */; };
+		F1E151E52584251000982F9B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E151E42584251000982F9B /* Filter.swift */; };
+		F1E151E8258425D500982F9B /* FilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E151E7258425D500982F9B /* FilterCollectionViewCell.swift */; };
+		F1E151ED2586B60F00982F9B /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E151EC2586B60F00982F9B /* ReviewViewController.swift */; };
+		F1E151F32586BC3600982F9B /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E151F22586BC3600982F9B /* ReviewTableViewCell.swift */; };
+		F1FDBDB5257EED50007D1BE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FDBDB4257EED50007D1BE8 /* AppDelegate.swift */; };
+		F1FDBDB7257EED50007D1BE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FDBDB6257EED50007D1BE8 /* SceneDelegate.swift */; };
+		F1FDBDB9257EED50007D1BE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FDBDB8257EED50007D1BE8 /* ViewController.swift */; };
+		F1FDBDBE257EED54007D1BE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FDBDBD257EED54007D1BE8 /* Assets.xcassets */; };
+		F1FDBDCA257EEE2E007D1BE8 /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FDBDC9257EEE2E007D1BE8 /* Trail.swift */; };
+		F1FDBDCE257EEF75007D1BE8 /* TrailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FDBDCD257EEF75007D1BE8 /* TrailTableViewCell.swift */; };
+		F1FDBDD1257EEFC6007D1BE8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FDBDD0257EEFC6007D1BE8 /* NetworkManager.swift */; };
+		F1FDBDD4257EEFF0007D1BE8 /* TrailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FDBDD3257EEFF0007D1BE8 /* TrailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2842FE8D265DE1DE1A7C3146 /* Pods_IthacaTrails2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IthacaTrails2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7BD93C2587B4380033943F /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		A18B802BF90C7C120FB1C9BC /* Pods-IthacaTrails2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IthacaTrails2.release.xcconfig"; path = "Target Support Files/Pods-IthacaTrails2/Pods-IthacaTrails2.release.xcconfig"; sourceTree = "<group>"; };
+		E0613787CA3171C7970213F8 /* Pods-IthacaTrails2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IthacaTrails2.debug.xcconfig"; path = "Target Support Files/Pods-IthacaTrails2/Pods-IthacaTrails2.debug.xcconfig"; sourceTree = "<group>"; };
+		F1E151E42584251000982F9B /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		F1E151E7258425D500982F9B /* FilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		F1E151EC2586B60F00982F9B /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		F1E151F22586BC3600982F9B /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		F1FDBDB1257EED50007D1BE8 /* IthacaTrails2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IthacaTrails2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FDBDB4257EED50007D1BE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1FDBDB6257EED50007D1BE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1FDBDB8257EED50007D1BE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1FDBDBD257EED54007D1BE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1FDBDC2257EED54007D1BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FDBDC9257EEE2E007D1BE8 /* Trail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
+		F1FDBDCD257EEF75007D1BE8 /* TrailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailTableViewCell.swift; sourceTree = "<group>"; };
+		F1FDBDD0257EEFC6007D1BE8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F1FDBDD3257EEFF0007D1BE8 /* TrailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1FDBDAE257EED50007D1BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3B07BAD9FA35D689CB32EC /* Pods_IthacaTrails2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A60E00B31E55CC7FF260C9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0613787CA3171C7970213F8 /* Pods-IthacaTrails2.debug.xcconfig */,
+				A18B802BF90C7C120FB1C9BC /* Pods-IthacaTrails2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C1C47B324FCAD4E10644836 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2842FE8D265DE1DE1A7C3146 /* Pods_IthacaTrails2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1FDBDA8257EED50007D1BE8 = {
+			isa = PBXGroup;
+			children = (
+				F1FDBDB3257EED50007D1BE8 /* IthacaTrails2 */,
+				F1FDBDB2257EED50007D1BE8 /* Products */,
+				7A60E00B31E55CC7FF260C9C /* Pods */,
+				7C1C47B324FCAD4E10644836 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1FDBDB2257EED50007D1BE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1FDBDB1257EED50007D1BE8 /* IthacaTrails2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1FDBDB3257EED50007D1BE8 /* IthacaTrails2 */ = {
+			isa = PBXGroup;
+			children = (
+				F1FDBDB4257EED50007D1BE8 /* AppDelegate.swift */,
+				7D7BD93C2587B4380033943F /* PopupViewController.swift */,
+				F1FDBDB6257EED50007D1BE8 /* SceneDelegate.swift */,
+				F1FDBDB8257EED50007D1BE8 /* ViewController.swift */,
+				F1E151E42584251000982F9B /* Filter.swift */,
+				F1E151E7258425D500982F9B /* FilterCollectionViewCell.swift */,
+				F1FDBDC9257EEE2E007D1BE8 /* Trail.swift */,
+				F1FDBDCD257EEF75007D1BE8 /* TrailTableViewCell.swift */,
+				F1FDBDD0257EEFC6007D1BE8 /* NetworkManager.swift */,
+				F1FDBDD3257EEFF0007D1BE8 /* TrailViewController.swift */,
+				F1E151EC2586B60F00982F9B /* ReviewViewController.swift */,
+				F1E151F22586BC3600982F9B /* ReviewTableViewCell.swift */,
+				F1FDBDBD257EED54007D1BE8 /* Assets.xcassets */,
+				F1FDBDC2257EED54007D1BE8 /* Info.plist */,
+			);
+			path = IthacaTrails2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1FDBDB0257EED50007D1BE8 /* IthacaTrails2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FDBDC5257EED54007D1BE8 /* Build configuration list for PBXNativeTarget "IthacaTrails2" */;
+			buildPhases = (
+				28CDFD7E627A5271B8C20A1F /* [CP] Check Pods Manifest.lock */,
+				F1FDBDAD257EED50007D1BE8 /* Sources */,
+				F1FDBDAE257EED50007D1BE8 /* Frameworks */,
+				F1FDBDAF257EED50007D1BE8 /* Resources */,
+				E63FF9A0AB3D13E8E33B81C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IthacaTrails2;
+			productName = IthacaTrails2;
+			productReference = F1FDBDB1257EED50007D1BE8 /* IthacaTrails2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1FDBDA9257EED50007D1BE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F1FDBDB0257EED50007D1BE8 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F1FDBDAC257EED50007D1BE8 /* Build configuration list for PBXProject "IthacaTrails2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1FDBDA8257EED50007D1BE8;
+			productRefGroup = F1FDBDB2257EED50007D1BE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1FDBDB0257EED50007D1BE8 /* IthacaTrails2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1FDBDAF257EED50007D1BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FDBDBE257EED54007D1BE8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28CDFD7E627A5271B8C20A1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IthacaTrails2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E63FF9A0AB3D13E8E33B81C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IthacaTrails2/Pods-IthacaTrails2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IthacaTrails2/Pods-IthacaTrails2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IthacaTrails2/Pods-IthacaTrails2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1FDBDAD257EED50007D1BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FDBDD1257EEFC6007D1BE8 /* NetworkManager.swift in Sources */,
+				F1E151F32586BC3600982F9B /* ReviewTableViewCell.swift in Sources */,
+				F1E151E8258425D500982F9B /* FilterCollectionViewCell.swift in Sources */,
+				F1E151ED2586B60F00982F9B /* ReviewViewController.swift in Sources */,
+				F1FDBDB9257EED50007D1BE8 /* ViewController.swift in Sources */,
+				F1FDBDB5257EED50007D1BE8 /* AppDelegate.swift in Sources */,
+				F1FDBDCA257EEE2E007D1BE8 /* Trail.swift in Sources */,
+				F1FDBDD4257EEFF0007D1BE8 /* TrailViewController.swift in Sources */,
+				F1E151E52584251000982F9B /* Filter.swift in Sources */,
+				F1FDBDB7257EED50007D1BE8 /* SceneDelegate.swift in Sources */,
+				F1FDBDCE257EEF75007D1BE8 /* TrailTableViewCell.swift in Sources */,
+				7D7BD93D2587B4380033943F /* PopupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1FDBDC3257EED54007D1BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1FDBDC4257EED54007D1BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1FDBDC6257EED54007D1BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0613787CA3171C7970213F8 /* Pods-IthacaTrails2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IthacaTrails2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justingu.IthacaTrails2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1FDBDC7257EED54007D1BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18B802BF90C7C120FB1C9BC /* Pods-IthacaTrails2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IthacaTrails2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justingu.IthacaTrails2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1FDBDAC257EED50007D1BE8 /* Build configuration list for PBXProject "IthacaTrails2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FDBDC3257EED54007D1BE8 /* Debug */,
+				F1FDBDC4257EED54007D1BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FDBDC5257EED54007D1BE8 /* Build configuration list for PBXNativeTarget "IthacaTrails2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FDBDC6257EED54007D1BE8 /* Debug */,
+				F1FDBDC7257EED54007D1BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1FDBDA9257EED50007D1BE8 /* Project object */;
+}
